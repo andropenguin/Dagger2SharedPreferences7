@@ -26,7 +26,6 @@ public class DebugSharedPrefsModule {
     @Provides
     @Singleton
     SharedPreferences provideSharedPrefs() {
-        // todo
         if (mockMode) {
 //            return mock(SharedPreferences.class);
             // mockではなく、テスト用プリファレンスファイルを使用
