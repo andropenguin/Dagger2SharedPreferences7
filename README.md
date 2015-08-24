@@ -1,8 +1,8 @@
-# A sample application using SharePreferences which tests SharedPreferences
+# Another sample application using SharePreferences which tests SharedPreferences
 
 # What is this?
 
-This is a sample application using SharedPreferences. This uses Google Dagger2 and Espresso to test about SharedPreferences.
+This is a sample application using SharedPreferences. In this application, the SharedPreferences APIs are called in a utility class and the methods of the  utitlity class are called in the Fragment. This uses Google Dagger2 and Espresso to test about SharedPreferences.
 
 # License
 Copyright 2015 andropenguin@gmail.com (twitter id: @penguindaa )
